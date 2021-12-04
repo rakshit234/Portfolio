@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <title>Rakshit Singh | Profile</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <h2>Loading...</h2>
+        </div>
+    </div>
+    <div id="particles-js"></div>
+
+    <div id="fullscreen-image">
+        <img src="" id="fullImage">
+        <div id='close-button'>X</div>
+    </div>
+
+    <div class="menu">
+        <ul id="scrollEffect">
+            <li>
+                <span onmouseenter="hoverEnter(0)" class="anchor_screen">
+                    <a href="#home" id="screen_0"><i class="fa fa-home"></i></a>
+                </span>
+            </li>
+            <li>
+                <span onmouseenter="hoverEnter(1)" class="anchor_screen">
+                    <a href="#user" id="screen_1"><i class="fa fa-user"></i></a>
+                </span>
+            </li>
+            <li>
+                <span onmouseenter="hoverEnter(2)" class="anchor_screen">
+                    <a href="#grad" id="screen_2"><i class="fa fa-graduation-cap"></i></a>
+                </span>
+            </li>
+            <li>
+                <span onmouseenter="hoverEnter(3)" class="anchor_screen">
+                    <a href="#projects" id="screen_3"><i class="fa fa-laptop"></i></a>
+                </span>
+            </li>
+            <li>
+                <span onmouseenter="hoverEnter(4)" class="anchor_screen">
+                    <a href="#contact" id="screen_4"><i class="fa fa-phone"></i></a>
+                </span>
+            </li>
+            <span class="goo-index" id="goo-index"></span>
+        </ul>
+    </div>
+
+    <div class="main-section">
+
+        <div class="details min-height" id="home">
+            <div style="margin:auto; text-align:center;">
+                <div class="text positionTop">
+                    <p style="font-size:20px; color:var(--color-3); font-weight:bold;">Hey! I am</p>
+                    <h1 style="font-size:50px; color:white; font-weight:bold;">Rakshit Singh</h1>
+                    <div class="likes">
+                        <span>I like </span>
+                        <div class="word"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scrollDown">
+                <span class="bounceAlpha"></span>
+                <span class="bounceAlpha"></span>
+                <span class="bounceAlpha"></span>
+            </div>
+        </div>
+
+        <div class="about flex min-height" id="user">
+            <section>
+                <div class="positionTop main-headings">About Me</div>
+                <div class="positionTop flex about-me">
+                    <div class="about-img">
+                        <img src="images/dp-removebg-preview.png" alt="Rakshit Sing Image">
+                    </div>
+                    <div class="about-content">
+                        <div style="line-height:1.8">
+                            I am a postgraduate student majoring in Information Security with a zeal to innovate & optimize complex architectures using Python &amp; Java. I like to challenge myself by diving into new technologies and investigate problems to meet both short-term
+                            and long-term needs.
+                            <!-- My interests lie in (2 things other than the ones mentioned above). -->
+                        </div>
+                        <!-- <div class="flex about-info">
+                            <div>Name:</div>
+                            <div>Rakshit Singh</div>
+                        </div> -->
+                        <div class="flex about-info">
+                            <div>Email:</div>
+                            <div>rakshitreshu1997@gmail.com</div>
+                        </div>
+                        <div class="flex about-info">
+                            <div>Phone:</div>
+                            <div>+91 8800649331</div>
+                        </div>
+                        <div class="flex about-info">
+                            <div>City:</div>
+                            <div>Ghaziabad</div>
+                        </div>
+                        <div class="flex about-info">
+                            <div>Country:</div>
+                            <div>India</div>
+                        </div>
+                        <div>
+                            <a href="rakshit_resume.pdf" target="_blank">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="flex" id="grad">
+
+            <section class="timeline positionTop">
+                <div class="positionTop main-headings">Education</div>
+                <ul>
+                    <li>
+                        <div>
+                            <time>Present</time> National Institute of Technology-Karnataka<br> Masters of Technology in Computer Science - Information security<br> GPA: -/10.0
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>June 2020</time> Netaji Subhas Institute of Technology, Delhi<br> Bachelors of Technology in Information Technology<br> GPA: 7.04/10.0
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>May, 2015</time> Vivekananda Public School, Delhi<br> Higher Secondary Certificate (10+2)
+                            <br> Percentage: 80.8/100.0
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>May 2013</time> Maharaja Agarsain Public School, Ghaziabad<br> Secondary School Certificate (10)<br> GPA: 8.6/10.0
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="flex" id="skills">
+            <section>
+                <div class="positionTop main-headings">Technical Skills</div>
+                <div class="positionTop">
+                    <div class="flex">
+                        <div class="image-text" title="JAVA"><img src="images/logos/java.png" alt="JAVA" class="lang"></div>
+                        <div class="image-text" title="Python"><img src="images/logos/python.png" alt="Python" class="lang"></div>
+                        <div class="image-text" title="C"><img src="images/logos/c.png" alt="C" class="lang"></div>
+                        <div class="image-text" title="SQL"><img src="images/logos/mysql.png" alt="SQL" class="lang"></div>
+                        <div class="image-text" title="HTML"><img src="images/logos/html.png" alt="HTML" class="lang"></div>
+                        <div class="image-text" title="CSS"><img src="images/logos/css3.png" alt="CSS" class="lang"></div>
+                        <div class="image-text" title="Git"><img src="images/logos/git.png" alt="Git" class="lang"></div>
+                        <div class="image-text" title="Spyder"><img src="images/logos/spyder.svg" alt="Spyder" class="lang"></div>
+                        <div class="image-text" title="IntelliJ"><img src="images/logos/intellij-512x512-1175020.png" alt="IntelliJ" class="lang"></div>
+                        <div class="image-text" title="Eclipse"><img src="images/logos/eclipse.png" alt="Eclipse" class="lang"></div>
+                        <div class="image-text" title="pandas"><img src="images/logos/pandas.png" alt="pandas" class="lang"></div>
+                        <div class="image-text" title="NumPy"><img src="images/logos/numpy.png" alt="NumPy" class="lang"></div>
+                        <div class="image-text" title="Matplotlib"><img src="images/logos/matplot.png" alt="Matplotlib" class="lang"></div>
+                        <div class="image-text" title="OOP"><img src="images/logos/oop.jpg" alt="OOP" class="lang"></div>
+                        <div class="image-text" title="OS"><img src="images/logos/os.png" alt="OS" class="lang"></div>
+                        <div class="image-text" title="DSA"><img src="images/logos/dsa.png" alt="DSA" class="lang"></div>
+                        <div class="image-text" title="DBMS"><img src="images/logos/dbms-tutorial.jpg" alt="DBMS" class="lang"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="flex" id="projects">
+            <section>
+                <div class="positionTop main-headings">Projects</div>
+                <div class="positionTop">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2 class="card-title">Publication</h2>
+                            <p class="card-body">Analysis of SMOTE: Modified for Diverse Imbalanced Datasets Under the IoT Environment</p>
+                            <a href="https://www.igi-global.com/gateway/article/274038" class="button">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h2 class="card-title">Amenities Quantification</h2>
+                            <p class="card-body">Compared various hotels reviews by different customers using tokenization method and overall rating of the hotel based on amenities.
+                                <br>&nbsp;
+                            </p>
+                            <!-- <a href="#" class="button">Learn more</a> -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h2 class="card-title">Data wrangling and visualisation</h2>
+                            <p class="card-body">Perform an exploratory data analysis of the Ford GOBIKE dataset using Python. Then, create a presentation with explanatory plots that conveys your findings.
+                            </p>
+                            <!-- <a href="#" class="button">Learn more</a> -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h2 class="card-title">Heart Disease Prediction</h2>
+                            <p class="card-body">Predicted whether a patient should be diagnosed with Heart Disease or not using various supervised learning algorithms like KNN, Decision Tree, Random Forests, etc.</p>
+                            <!-- <a href="#" class="button">Learn more</a> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="flex" id="certificates">
+            <section>
+                <div class="positionTop main-headings" style="letter-spacing: 2px;">Certifications</div>
+                <div class="positionTop box-3d flex">
+                    <div class="cert-card">
+                        <div class="cert-card-inner">
+                            <div class="cert-card-front">
+                                <img src='images/ud.png' alt="Udacity">
+                                <div>Data Analyst &nbsp; &nbsp; &nbsp; &nbsp;</div>
+                            </div>
+                            <div class="cert-card-back">
+                                <div class="content">
+                                    <img src="images/udacity.png" class="cert-image" alt="Data Analyst">
+                                    <div class='cert-overlay'>
+                                        <i class="fa fa-expand fullscreen"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-card-inner">
+                            <div class="cert-card-front">
+                                <img src='images/coursera.png' alt="Coursera">
+                                <div>Crash Course <br /> on Python</div>
+                            </div>
+                            <div class="cert-card-back">
+                                <div class="content">
+                                    <img src="images/python.jpeg" class="cert-image" alt="&nbsp;Crash Course &nbsp; &nbsp; &nbsp;on Python">
+                                    <div class='cert-overlay'>
+                                        <i class="fa fa-expand fullscreen"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-card-inner">
+                            <div class="cert-card-front">
+                                <img src='images/coursera.png' alt="Coursera">
+                                <div>Understanding and Visualizing Data <br /> with Python</div>
+                            </div>
+                            <div class="cert-card-back">
+                                <div class="content">
+                                    <img src="images/Understanding_and_Visualizing_Data_with_Python.jpeg" class="cert-image" alt="Understanding and Visualizing Data with Python">
+                                    <div class='cert-overlay'>
+                                        <i class="fa fa-expand fullscreen"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-card-inner">
+                            <div class="cert-card-front">
+                                <img src='images/dc.png' alt="Datacamp" width="80%">
+                                <div>SQL Fundamentals Track</div>
+                            </div>
+                            <div class="cert-card-back">
+                                <div class="content">
+                                    <img src="images/datacamp.png" class="cert-image" alt="SQL Fundamentals Track">
+                                    <div class='cert-overlay'>
+                                        <i class="fa fa-expand fullscreen"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="flex min-height" id="contact">
+            <section>
+                <div class="contact-box positionTop">
+                    <div class="contact-links">
+                        <h2>CONTACT ME</h2>
+                        <div class="links">
+                            <div class="link">
+                                <a href="https://www.linkedin.com/in/rakshit-singh23/" class="flex"> <i class="fa fa-linkedin"></i> </a>
+                            </div>
+                            <div class="link">
+                                <a href="https://github.com/rakshit234" class="flex"><i class="fa fa-github"></i></a>
+                            </div>
+                            <div class="link">
+                                <a href="https://twitter.com/Rakshit2341997" class="flex"><i
+                                        class="fa fa-twitter"></i></a>
+                            </div>
+                            <div class="link">
+                                <a href="mailto:rakshitreshu1997@gmail.com" class="flex"><i
+                                        class="fa fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form action="https://send.pageclip.co/l8pA4E5gYPgjqB2QC1o3I9t88nLTWkmU" class="pageclip-form" method="post">
+                            <div class="form-item">
+                                <input type="text" name="sender" required>
+                                <label>Name</label>
+                            </div>
+                            <div class="form-item">
+                                <input type="text" name="email" required>
+                                <label>Email</label>
+                            </div>
+                            <div class="form-item">
+                                <textarea class="" name="message" required></textarea>
+                                <label>Message</label>
+                            </div>
+                            <button type="submit" class="pageclip-form__submit submit-btn"><span>Send</span></button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
