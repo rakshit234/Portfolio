@@ -1,6 +1,6 @@
 # Portflio Website
 
-![Home-Page](/images/home-page.png)
+![Home-Page](/images/home-page.gif)
 
 ## Flow of the Website
 
