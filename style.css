@@ -32,6 +32,23 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: var(--background-color-1);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--color-3);
+    border-radius: 20px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: var(--circle-3);
+}
+
 .positionTop {
     position: relative;
     z-index: 25;
@@ -763,6 +780,7 @@ time {
 .image-text {
     position: relative;
     transition: all 0.3s ease-in-out;
+    display: inline-block;
 }
 
 .image-text[title]:hover::after {
