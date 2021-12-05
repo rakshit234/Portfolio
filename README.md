@@ -18,7 +18,7 @@ This is a single-page portfolio website.
 > Certifications: Presented as fours cards where each contains the logo of the organisation and the course name. On hover, the card flips that contains the faded certicate and a pop-up button to get a larger view of certificate. The code for the same is present in 'script.js'.
  
 > Contact Form: It section contains a box with two partitions:<br>
-> >>Left Side: This sub-section contains social handles.
+>>Left Side: This sub-section contains social handles.
 <br> Right SIde: A form with 3 details of the person want to get in touch: Name, Email adn Message (Code of the functionality in 'scipt.js').
 
 ## Additiona Features
