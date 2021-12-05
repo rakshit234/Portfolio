@@ -5,7 +5,7 @@ This is a single-page portfolio website.
 
 ## Flow of the Website
 
-> Home: It contains name and the animation displaying the likes. The code for this is present in 'script.js'. Under this, 3 arrows pointing downward are present. (Code for this in 'style.css')
+> Home: It contains name and animation about the liking. The code for this is present in 'script.js'. Under this, 3 arrows pointing downward are present. (Code for this in 'style.css')
  
 > About Me: A photo and a brief description is presented in this section, along with a button to download the CV.
  
