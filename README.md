@@ -1,6 +1,7 @@
 # Portflio Website
 
 ![Home-Page](/images/home-page.gif)
+This is a single-page portfolio website.
 
 ## Flow of the Website
 
@@ -22,7 +23,9 @@
     Right SIde: A form with 3 details of the person want to get in touch: Name, Email adn Message (Code of the functionality in 'scipt.js').
 
 ## Additiona Features
-The particle.js is used for the animation in the background and a side bar to jump to a particular section directly.
+* The particle.js is used for the animation in the background.
+<br>
+*A side bar to jump to a particular section directly (code in script.js).
 
 ## Files:
 1. index.html
