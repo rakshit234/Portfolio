@@ -38,6 +38,6 @@ This is a single-page portfolio website.
 ## Technologies Used
 i. HTML
 <br>
-ii.CSS
+ii. CSS
 <br>
 iii. Javascript
