@@ -1,6 +1,6 @@
 # Portflio Website
 
-This is a single page portfolio website.
+![Home-Page](/images/home-page.png)
 
 ## Flow of the Website
 
