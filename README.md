@@ -19,7 +19,7 @@ This is a single-page portfolio website.
  
 > Contact Form: It section contains a box with two partitions:<br>
 > >>Left Side: This sub-section contains social handles.
-> >> Right SIde: A form with 3 details of the person want to get in touch: Name, Email adn Message (Code of the functionality in 'scipt.js').
+<br> Right SIde: A form with 3 details of the person want to get in touch: Name, Email adn Message (Code of the functionality in 'scipt.js').
 
 ## Additiona Features
 * The particle.js is used for the animation in the background.
