@@ -1,6 +1,6 @@
 # Portflio Website
 
-<center>![Home-Page](/images/home-page.gif)</center>
+<center> ![Home-Page](/images/home-page.gif) </center>
 
 This is a single-page portfolio website.
 
