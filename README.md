@@ -21,7 +21,7 @@ This is a single-page portfolio website.
 * Left Side: This sub-section contains social handles.
 * Right SIde: A form with 3 details of the person want to get in touch: Name, Email adn Message (Code of the functionality in 'scipt.js').
 
-## Additiona Features
+## Additional Features
 * The particle.js is used for the animation in the background.
 * A side bar to jump to a particular section directly (code in script.js).
 
